@@ -1,0 +1,129 @@
+/* style.css */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(112, 111, 111);
+   
+    
+}
+
+body{
+    margin: 30px;
+}
+/* .controlInput
+{
+   margin-right: auto;
+   
+
+} */
+h1{
+    text-align: center;
+}
+.display{
+    width: 340px;
+    height: 60px;
+    font-size: 40px;
+    text-align: right;
+    color: black;
+    margin-left: 10px;
+    background: linear-gradient(#ffffff,#b19696);
+}
+.calculator{
+    
+    height: 505px;
+    width: 390px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+input{
+   font-size: 30px;
+   padding: 10px;
+   height: 50px;
+   color: black;
+   text-align: center;
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    position: relative;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    background-color: white;
+    margin-left: 10px;
+
+}
+.operator{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    position: relative;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 10px;
+}
+.button:hover{
+    color:#ffffff;
+}
+.operator:hover{
+    color:#02fe13;
+}
+.equal:hover{
+    color:#02fe13;
+}
+.clear:hover{
+    color:#ffffff;
+}
+.equal{
+    width: 363px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    background: transparent;
+    background-color:black;
+    color: white;
+    margin-left: 10px;
+}
+form{
+    background-color: rgb(193, 196, 196);
+    /* padding: 0px; */
+    width: 100%;
+    padding-top: 15px;
+}
+.clear{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    position: relative;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    background-color:red;
+    color: white;
+    margin-left: 10px;
+}
+
+.button{
+    background: linear-gradient(#ffffff,#494646)
+}
+
+.operator, .equal{
+    background: linear-gradient(#5c5959,#000000);
+}
+
+.clear{
+    background: linear-gradient(rgb(204, 55, 55),red);
+}
